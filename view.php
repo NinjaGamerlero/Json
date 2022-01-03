@@ -44,11 +44,7 @@ if (!$user) {
             </tr>
             <tr>
                 <th>audio:</th>
-                <td>
-                    <a target="_blank" href="http://<?php echo $user['audio'] ?>">
-                        <?php echo $user['website'] ?>
-                    </a>
-                </td>
+                <td><?php echo $user['audio'] ?></td>
             </tr>
             </tbody>
         </table>
