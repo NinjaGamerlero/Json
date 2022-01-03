@@ -30,7 +30,7 @@ include 'partials/header.php';
                 <td><?php echo $user['sort'] ?></td>
                 <td><?php echo $user['audio'] ?></td>
                 <td>
-                    <a href="view.php?soura=<?php echo $user['soura'] ?>" class="btn btn-sm btn-outline-info">View</a>
+                    <a href="view.php?soura=<?php echo $user['soura'] ?>&reader=<?php echo $user['Readername'] ?>" class="btn btn-sm btn-outline-info">View</a>
                     <a href="update.php?id=<?php echo $user['id'] ?>"
                        class="btn btn-sm btn-outline-secondary">Update</a>
                     <form method="POST" action="delete.php">
