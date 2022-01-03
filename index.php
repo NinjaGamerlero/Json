@@ -28,11 +28,7 @@ include 'partials/header.php';
                 <td><?php echo $user['soura'] ?></td>
                 <td><?php echo $user['Readername'] ?></td>
                 <td><?php echo $user['sort'] ?></td>
-                <td>
-                    <a target="_blank" href="http://<?php echo $user['audio'] ?>">
-                        <?php echo $user['website'] ?>
-                    </a>
-                </td>
+                <td><?php echo $user['audio'] ?></td>
                 <td>
                     <a href="view.php?id=<?php echo $user['id'] ?>" class="btn btn-sm btn-outline-info">View</a>
                     <a href="update.php?id=<?php echo $user['id'] ?>"
